@@ -1,0 +1,24 @@
+{
+  "name": "bacon",
+  "version": "0.0.0",
+  "authors": [
+    "Murad Rogozhnikov <murad@rogozhnikoff.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "bacon": "*",
+    "bootstrap": "*",
+    "lodash": "~2.4.1"
+  }
+}
