@@ -111,7 +111,15 @@ shiftVector = (vector) ->
       curPos++
   vector
 
-
+### test-cases
+[] -> []
+00 -> 00
+02 -> 20
+22 -> 40
+202 -> 400
+022 -> 400
+2222 -> 4400
+###
 class Movement
   @UP = 'up'
   @DOWN = 'down'
